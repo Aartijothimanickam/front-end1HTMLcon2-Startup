@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1100px initial-scale=1.0" />
+    <title>demo</title>
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+  <body>
+	<nav>
+		<div class="navbar">
+			<div class="logo">
+				<img src="Startup.jpg" alt="Logo" width="50px" height="30px" />
+			</div>
+			<div class="nav-links">
+				<ul type="none">
+			<li><a href="#intro">Home</a></li>
+			<li><a href="#about">about us</a></li>
+			<li><a href="#contact">contact us</a></li>
+			<li><a href="#login">login</a></li>
+		</ul>
+		</div>
+		</div>
+	</nav>
+	<section id="intro">
+		<div class="intro-content">
+		<div class="text-content">
+		<h1> Startup Landing Page</h1>
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum atque ipsam vitae, quidem corrupti doloremque natus qui nesciunt magni, reiciendis quibusdam, magnam alias quos? Aspernatur consectetur, expedita cumque magnam voluptatum numquam similique ex recusandae ullam. Laborum officiis nihil reprehenderit, a sed, qui explicabo pariatur odio eius porro esse hic minus.</p>
+		<button> Login</button>
+		</div>
+		<div class="jeff-image-content">
+			<img src="jeff.png" alt="jeff Image" />
+		</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="contact-content">
+			<caption>Contact Us</caption>
+			<br><br>
+		<form action="/submit" method="post">
+			
+			<input type="text" id="name" name="name"  placeholder=" Name" required><br><br>
+			
+			<input type="email" id="email" name="email"  placeholder=" Email" required><br><br>
+	
+			<input type="tel" id="mobile" name="mobile"  placeholder=" Mobile Number" required>
+			
+			<input type="text" id="city" name="city"  placeholder=" City" required><br><br>
+			
+			<center><button type="submit">Submit Form</button></center>
+		</form>
+		</div>
+	</section>
+	<table>
+		<thead>
+			<th>S.NO</th>
+			<th>Startup Name</th>
+			<th>Startup Description</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td> WowIndia</td>
+				<td> A Startup with WOW Ideas</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td> Lorem, ipsum.</td>
+				<td>  Lorem, ipsum dolor.</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td> Lorem, ipsum.</td>
+				<td>  Lorem, ipsum dolor.</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td> Lorem, ipsum.</td>
+				<td>  Lorem, ipsum dolor.</td>
+			</tr>
+			<tr>
+						<td>2</td>
+				<td> Lorem, ipsum.</td>
+				<td>  Lorem, ipsum dolor.</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td> Lorem, ipsum.</td>
+				<td>  Lorem, ipsum dolor.</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td class="footer">00.</td>
+				<td class="footer"> final footer</td>
+				<td class="footer">  Lorem, ipsum dolor.</td>
+			</tr>
+		</tfoot>
+	</table>
+  </body>
+</html>

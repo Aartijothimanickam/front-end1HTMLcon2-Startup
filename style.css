@@ -1,0 +1,130 @@
+*{
+    font-family: ' calibri', 'calibri';
+    font-size: 20px;
+
+}
+body{
+    background-color: black;
+    color: rgb(211, 166, 20) ;
+    margin: 50px;
+    /* border: 1px solid yellow; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+    background-color: rgb(211, 166, 20);
+    color: black;
+}
+.logo{
+    /* display: content-box; */
+    margin-left: 20px;
+    align-items: left;
+}
+.nav-links{
+    display: flex;
+    align-items: right;
+    margin-right: 20px;
+}
+li{
+    display: inline;
+    gap: 20px;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.text-content{
+    margin-left: 90px;
+    box-sizing: content-box;
+    width: 800px;
+    height: 400px;
+    color: white;
+    align-items: center;
+}
+.jeff-image-content{
+    box-sizing: content-box;
+    width: 400px;
+    height: 300px;
+    align-items: right  ;
+    margin-right: 20px;
+}
+.intro-content{
+    box-sizing: content-box;
+    width: 1000px auto;
+    height: 400px auto;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    padding: 5px 50px;
+}
+h1{
+    font-size: 40px;
+
+}
+button{
+    background-color: rgb(211, 166, 20);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    box-sizing: content-box;
+    width: 200px;
+    cursor: pointer;
+}
+.contact-content{
+    box-sizing: content-box;
+    width: 80%;
+    height: 400px;
+    margin: 50px;
+    display: wrap;
+    justify-content: justify;
+}
+input{
+    box-sizing: content-box;
+    width: 1280px ;
+    height: 40px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    border: 1px solid rgb(211, 166, 20);
+    background-color: black;
+}
+input[type="tel"]{
+     box-sizing: content-box;
+    width: 700px ;
+    height: 40px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    border: 1px solid rgb(211, 166, 20);
+    background-color: black;
+}
+input#city{
+     box-sizing: content-box;
+    width: 400px ;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(211, 166, 20);
+    background-color: black;
+}
+table{
+    box-sizing: content-box;
+    width: 1280px ;
+    height: 40px;
+    margin-left: 50px ;
+    border-radius: 5px;
+    border: 1px solid rgb(211, 166, 20);
+    border-collapse: collapse;
+    background-color: black;
+}
+th,td,tr{
+    border: 1px solid rgb(211, 166, 20);
+    border-collapse: collapse;
+    padding: 10px;
+}
+tfoot,td.footer{
+    background-color: rgb(211, 166, 20);
+    color: black;
+    border: 1px solid black;
+}
